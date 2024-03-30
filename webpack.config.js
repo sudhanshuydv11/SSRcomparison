@@ -8,7 +8,7 @@ module.exports={
       static: './dist',
       compress: true
     },
-    entry: "./index.js",
+    entry: "./src/client/index.js",
     output: {
       filename: "bundle.js",
       path: path.resolve("dist"),
