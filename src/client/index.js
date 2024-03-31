@@ -6,4 +6,4 @@ import App from "./components/app/app.js";
 
 
 
-ReactDOM.render(<App/>, document.getElementById("root"));
+ReactDOM.hydrate(<App/>, document.getElementById("root"));

@@ -1,5 +1,5 @@
-const NO_OF_COLUMNS_AND_ROWS=100;
-const COLUMN_HEADING='Title';
+import { COLUMN_HEADING, NO_OF_COLUMNS_AND_ROWS } from "../constants/table-data";
+
 export const getColumns =  () => {
 let allColumns=[];
 
