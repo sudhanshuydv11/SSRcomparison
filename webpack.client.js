@@ -1,6 +1,6 @@
 const path = require("path");
-const HtmlWebpackPlugin = require("html-webpack-plugin");
-const { MODULE_RULES }=require('./webpack/base-config');
+const webpack = require("webpack");
+const HTMLWebpackPlugin = require("html-webpack-plugin");
 
 module.exports={
     mode:'development',
@@ -33,12 +33,7 @@ module.exports={
               "sass-loader"
             ],
           },
-        ]
-      },
-      plugins: [
-        new HtmlWebpackPlugin({
-          template: "index.html"
-        })
-       ]
+        ], 
+      }
     
 }

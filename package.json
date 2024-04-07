@@ -5,7 +5,9 @@
   "main": "bundle.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ./src/server/server.js"
+    "start": "node ./dist/server-bundle.js",
+    "webpack:client": "webpack --config webpack.client.js",
+    "webpack:server": "webpack --config webpack.server.js "
   },
   "keywords": [],
   "author": "",
